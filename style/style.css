@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+.content {
+  margin: 8%;
+  padding: 3rem 1rem 3rem 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.signin-text {
+  font-weight: 600 !important;
+}
+
+.form-control {
+  display: block;
+  border-color: #1e90ef !important;
+}
+
+.form-control:focus {
+  border-color: #1e90ef;
+}
+
+.btn-class {
+  border-color: black;
+  color: white;
+}
+
+.btn-class:hover {
+  background-color: #004e8d;
+}
+
+#image {
+  margin-left: 3rem;
+}

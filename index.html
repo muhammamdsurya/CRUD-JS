@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style/style.css" />
+
+    <title>Login</title>
+  </head>
+  <body
+    style="
+      background-image: url(https://hariannusantara.com/wp-content/uploads/2019/06/gambar-pemandangan-alam-kartun1.jpg);
+    "
+    <!--
+    Gambar
+    --
+  >
+    <div class="container">
+      <div class="row content">
+        <div class="col-md-6 mb-3">
+          <img
+            src="https://1.bp.blogspot.com/-AhHogt7Hyhg/We7rhFBfBAI/AAAAAAAAAA8/QRqP5kCCVQ0uzgFm-nUvwsC5-KN57EweQCEwYBhgL/s1600/4256ca93fcbb7c6506df67ac9087347d.jpg"
+            id="image"
+            width="80%"
+          />
+        </div>
+        <div class="col-md-6">
+          <h3 class="signin-text mb-3 text-center">Login Admin</h3>
+          <!-- Input -->
+          <form
+            action="latihan.html"
+            method="GET"
+            name="myForm"
+            onsubmit="return validateForm()"
+          >
+            <div class="form-group mb-3">
+              <label for="email" class="mb-2">Username</label>
+              <input
+                maxlength="10"
+                id="email"
+                required
+                type="text"
+                placeholder="Masukan Username"
+                class="form-control"
+                name="email"
+              />
+            </div>
+            <div class="form-group mb-3">
+              <label for="password" class="mb-2">Password</label>
+              <input
+                maxlength="10"
+                id="password"
+                type="password"
+                required
+                placeholder="Masukan password"
+                name="password"
+                class="form-control"
+              />
+            </div>
+            <!-- CheckBox -->
+            <div class="form-group form-check mb-3">
+              <input
+                type="checkbox"
+                name="checkbox"
+                class="form-check-input"
+                id="checkbox"
+              />
+              <label class="form-check-label" for="checkbox"
+                >Ingatkan Saya
+              </label>
+            </div>
+            <!-- Button -->
+            <button class="btn btn-class btn-primary" onclick="validateForm()">
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="script/java.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
